@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExpenseTracker</title>
+    <title>Expense Monitor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>ExpenseTracker</h1>
+            <h1>ExpenseMonitor</h1>
         </header>
         <main>
             <section class="expense-form">
@@ -33,16 +33,68 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>Groceries</td>
+                            <td>$50.00</td>
+                            <td>2024-06-01</td>
                             <td>
-                                <form action="/delete{{ expense.id }}" method="POST" style="display: inline;">
-    <button type="submit">Delete</button>
-</form>
-
-<form action="/edit{{ expense.id }}" method="GET" style="display: inline;">
-    <button type="submit">Edit</button>
+                                <form action="/delete1" method="POST" style="display: inline;">
+                                    <button type="submit">Delete</button>
+                                </form>
+                                <form action="/edit1" method="GET" style="display: inline;">
+                                    <button type="submit">Edit</button>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Utilities</td>
+                            <td>$120.00</td>
+                            <td>2024-06-05</td>
+                            <td>
+                                <form action="/delete2" method="POST" style="display: inline;">
+                                    <button type="submit">Delete</button>
+                                </form>
+                                <form action="/edit2" method="GET" style="display: inline;">
+                                    <button type="submit">Edit</button>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Rent</td>
+                            <td>$800.00</td>
+                            <td>2024-06-01</td>
+                            <td>
+                                <form action="/delete3" method="POST" style="display: inline;">
+                                    <button type="submit">Delete</button>
+                                </form>
+                                <form action="/edit3" method="GET" style="display: inline;">
+                                    <button type="submit">Edit</button>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Transportation</td>
+                            <td>$60.00</td>
+                            <td>2024-06-10</td>
+                            <td>
+                                <form action="/delete4" method="POST" style="display: inline;">
+                                    <button type="submit">Delete</button>
+                                </form>
+                                <form action="/edit4" method="GET" style="display: inline;">
+                                    <button type="submit">Edit</button>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Entertainment</td>
+                            <td>$100.00</td>
+                            <td>2024-06-15</td>
+                            <td>
+                                <form action="/delete5" method="POST" style="display: inline;">
+                                    <button type="submit">Delete</button>
+                                </form>
+                                <form action="/edit5" method="GET" style="display: inline;">
+                                    <button type="submit">Edit</button>
+                                </form>
                             </td>
                         </tr>
                     </tbody>
